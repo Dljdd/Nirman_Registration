@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 //initialise firebase
 
 //reference your db
-var regisdb=firebase.database().ref('registration');
+var regisdb=firebase.database().ref('registrations');
 function getElementVal(id) {
   return document.getElementById(id).value;
 }
